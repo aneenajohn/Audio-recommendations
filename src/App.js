@@ -15,7 +15,7 @@ const genreList = [
 ];
 
 export default function App() {
-  const [genre, setGenre] = useState("All");
+  const [genre, setGenre] = useState("All Genre");
   function fetchSelectedGenre(genre) {
     // console.log("you clicked: ",genre);
     setGenre(genre);
